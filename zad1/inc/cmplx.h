@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <fftw3.h>
+#include <math.h>
+
 // c = a / b;
 void cmplx_div(fftw_complex a, fftw_complex b, fftw_complex c);
 
